@@ -57,7 +57,7 @@ The goal of RupeeCalc is to provide free and simple financial tools for users wh
 
 For questions or suggestions, please contact:
 
-[rupeecalc08@gmail.com](mailto:contact.rupeecalc08@gmail.com)
+[rupeecalc08@gmail.com](mailto:rupeecalc08@gmail.com)
 
 ## 📄 License
 
