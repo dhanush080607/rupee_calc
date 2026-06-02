@@ -51,13 +51,13 @@ The goal of RupeeCalc is to provide free and simple financial tools for users wh
 
 ## 🌐 Live Demo
 
-Add your deployed Vercel URL here after deployment.
+## https://rupeecalc.vercel.app/
 
 ## 📧 Contact
 
 For questions or suggestions, please contact:
 
-[contact.rupeecalc@gmail.com](mailto:contact.rupeecalc@gmail.com)
+[contact.rupeecalc@gmail.com](mailto:contact.rupeecalc08@gmail.com)
 
 ## 📄 License
 
