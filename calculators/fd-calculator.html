@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FD Calculator | RupeeCalc</title>
+
+    <meta name="description"
+          content="Free Fixed Deposit Calculator. Calculate FD maturity amount and interest earned instantly.">
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">💰 RupeeCalc</div>
+
+    <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="sip-calculator.html">SIP</a></li>
+        <li><a href="emi-calculator.html">EMI</a></li>
+        <li><a href="fd-calculator.html">FD</a></li>
+        <li><a href="gst-calculator.html">GST</a></li>
+        <li><a href="compound-interest.html">Compound Interest</a></li>
+        <li><a href="simple-interest.html">Simple Interest</a></li>
+    </ul>
+
+</nav>
+
+<section class="calculator-container">
+
+    <div class="calculator-box">
+
+        <h1>Fixed Deposit Calculator</h1>
+
+        <div class="input-group">
+            <label>Deposit Amount (₹)</label>
+            <input
+                type="number"
+                id="fdAmount"
+                placeholder="100000">
+        </div>
+
+        <div class="input-group">
+            <label>Interest Rate (% per annum)</label>
+            <input
+                type="number"
+                id="fdRate"
+                placeholder="7">
+        </div>
+
+        <div class="input-group">
+            <label>Investment Period (Years)</label>
+            <input
+                type="number"
+                id="fdYears"
+                placeholder="5">
+        </div>
+
+        <button
+            class="calculate-btn"
+            onclick="calculateFD()">
+            Calculate FD
+        </button>
+
+        <div class="results">
+
+            <div class="result-card">
+                <h3>Invested Amount</h3>
+                <div class="result-value" id="fdInvested">
+                    ₹0
+                </div>
+            </div>
+
+            <div class="result-card">
+                <h3>Interest Earned</h3>
+                <div class="result-value" id="fdInterest">
+                    ₹0
+                </div>
+            </div>
+
+            <div class="result-card">
+                <h3>Maturity Amount</h3>
+                <div class="result-value" id="fdMaturity">
+                    ₹0
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="calculators">
+
+    <h2>What is a Fixed Deposit?</h2>
+
+    <p style="max-width:900px; margin:auto; text-align:center;">
+        A Fixed Deposit (FD) is a financial instrument offered by banks
+        that provides a fixed interest rate over a specified period.
+        It is considered one of the safest investment options.
+    </p>
+
+</section>
+
+<footer>
+    <p>© 2026 RupeeCalc. All Rights Reserved.</p>
+</footer>
+
+<script src="../assets/js/script.js"></script>
+
+</body>
+</html>
+

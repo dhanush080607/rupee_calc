@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SIP Calculator | RupeeCalc</title>
+
+    <meta name="description"
+          content="Calculate SIP returns instantly using our free SIP Calculator. Estimate your future investment value with accurate calculations.">
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="logo">💰 RupeeCalc</div>
+
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="sip-calculator.html">SIP</a></li>
+            <li><a href="emi-calculator.html">EMI</a></li>
+            <li><a href="fd-calculator.html">FD</a></li>
+            <li><a href="gst-calculator.html">GST</a></li>
+            <li><a href="compound-interest.html">Compound Interest</a></li>
+            <li><a href="simple-interest.html">Simple Interest</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Calculator -->
+
+    <section class="calculator-container">
+
+        <div class="calculator-box">
+
+            <h1>Systematic Investment Plan Calculator</h1>
+
+            <div class="input-group">
+                <label>Monthly Investment (₹)</label>
+                <input
+                    type="number"
+                    id="investment"
+                    placeholder="5000">
+            </div>
+
+            <div class="input-group">
+                <label>Expected Annual Return (%)</label>
+                <input
+                    type="number"
+                    id="rate"
+                    placeholder="12">
+            </div>
+
+            <div class="input-group">
+                <label>Investment Period (Years)</label>
+                <input
+                    type="number"
+                    id="years"
+                    placeholder="10">
+            </div>
+
+            <button
+                class="calculate-btn"
+                onclick="calculateSIP()">
+                Calculate SIP
+            </button>
+
+            <!-- Results -->
+
+            <div class="results">
+
+                <div class="result-card">
+                    <h3>Invested Amount</h3>
+                    <div
+                        class="result-value"
+                        id="investedAmount">
+                        ₹0
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <h3>Estimated Returns</h3>
+                    <div
+                        class="result-value"
+                        id="returns">
+                        ₹0
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <h3>Total Value</h3>
+                    <div
+                        class="result-value"
+                        id="totalValue">
+                        ₹0
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Chart -->
+
+            <div class="chart-container">
+                <canvas id="sipChart"></canvas>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Info Section -->
+
+    <section class="calculators">
+
+        <h2>What is SIP?</h2>
+
+        <p style="text-align:center; max-width:900px; margin:auto;">
+            A Systematic Investment Plan (SIP) allows investors to
+            invest a fixed amount regularly in mutual funds.
+            SIP helps build wealth through disciplined investing
+            and the power of compounding.
+        </p>
+
+    </section>
+
+    <footer>
+        <p>© 2026 RupeeCalc. All Rights Reserved.</p>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+
+</body>
+</html>
+

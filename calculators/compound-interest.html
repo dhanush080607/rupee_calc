@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Compound Interest Calculator | RupeeCalc</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <meta name="description"
+          content="Free Compound Interest Calculator. Calculate investment growth, interest earned and maturity amount instantly.">
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">💰 RupeeCalc</div>
+
+    <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="sip-calculator.html">SIP</a></li>
+        <li><a href="emi-calculator.html">EMI</a></li>
+        <li><a href="fd-calculator.html">FD</a></li>
+        <li><a href="gst-calculator.html">GST</a></li>
+        <li><a href="compound-interest.html">Compound Interest</a></li>
+        <li><a href="simple-interest.html">Simple Interest</a></li>
+    </ul>
+
+</nav>
+
+<section class="calculator-container">
+
+    <div class="calculator-box">
+
+        <h1>Compound Interest Calculator</h1>
+
+        <div class="input-group">
+            <label>Principal Amount (₹)</label>
+            <input
+                type="number"
+                id="principal"
+                placeholder="100000">
+        </div>
+
+        <div class="input-group">
+            <label>Interest Rate (% per annum)</label>
+            <input
+                type="number"
+                id="interest"
+                placeholder="8">
+        </div>
+
+        <div class="input-group">
+            <label>Investment Period (Years)</label>
+            <input
+                type="number"
+                id="time"
+                placeholder="5">
+        </div>
+
+        <button
+            class="calculate-btn"
+            onclick="calculateCompoundInterest()">
+            Calculate Compound Interest
+        </button>
+
+        <div class="results">
+
+            <div class="result-card">
+                <h3>Principal Amount</h3>
+                <div class="result-value" id="principalResult">
+                    ₹0
+                </div>
+            </div>
+
+            <div class="result-card">
+                <h3>Interest Earned</h3>
+                <div class="result-value" id="interestResult">
+                    ₹0
+                </div>
+            </div>
+
+            <div class="result-card">
+                <h3>Maturity Amount</h3>
+                <div class="result-value" id="amountResult">
+                    ₹0
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="calculators">
+
+    <h2>What is Compound Interest?</h2>
+
+    <p style="max-width:900px; margin:auto; text-align:center;">
+        Compound Interest is the interest calculated on the initial principal
+        and also on the accumulated interest of previous periods. It helps
+        investments grow faster through the power of compounding.
+    </p>
+
+</section>
+
+<footer>
+    <p>© 2026 RupeeCalc. All Rights Reserved.</p>
+</footer>
+
+<script src="../assets/js/script.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simple Interest Calculator | RupeeCalc</title>
+
+    <meta name="description"
+          content="Free Simple Interest Calculator. Calculate interest, total amount, and investment growth instantly.">
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">💰 RupeeCalc</div>
+
+    <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="sip-calculator.html">SIP</a></li>
+        <li><a href="emi-calculator.html">EMI</a></li>
+        <li><a href="fd-calculator.html">FD</a></li>
+        <li><a href="gst-calculator.html">GST</a></li>
+        <li><a href="compound-interest.html">Compound Interest</a></li>
+        <li><a href="simple-interest.html">Simple Interest</a></li>
+    </ul>
+
+</nav>
+
+<section class="calculator-container">
+
+    <div class="calculator-box">
+
+        <h1>Simple Interest Calculator</h1>
+
+        <div class="input-group">
+            <label>Principal Amount (₹)</label>
+            <input type="number" id="principal" placeholder="10000">
+        </div>
+
+        <div class="input-group">
+            <label>Interest Rate (% per annum)</label>
+            <input type="number" id="rate" placeholder="5">
+        </div>
+
+        <div class="input-group">
+            <label>Time (Years)</label>
+            <input type="number" id="time" placeholder="2">
+        </div>
+
+        <button class="calculate-btn" onclick="calculateSimpleInterest()">
+            Calculate Interest
+        </button>
+
+        <div class="results">
+
+            <div class="result-card">
+                <h3>Interest</h3>
+                <div class="result-value" id="interestResult">₹0</div>
+            </div>
+
+            <div class="result-card">
+                <h3>Total Amount</h3>
+                <div class="result-value" id="totalResult">₹0</div>
+            </div>
+
+            <div class="result-card">
+                <h3>Principal</h3>
+                <div class="result-value" id="principalResult">₹0</div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="calculators">
+
+    <h2>What is Simple Interest?</h2>
+
+    <p style="max-width:900px; margin:auto; text-align:center;">
+        Simple Interest is calculated only on the initial principal amount.
+        It is commonly used for short-term loans and basic financial calculations.
+    </p>
+
+</section>
+
+<footer>
+    <p>© 2026 RupeeCalc. All Rights Reserved.</p>
+</footer>
+
+<script src="../assets/js/script.js"></script>
+
+</body>
+</html>
+

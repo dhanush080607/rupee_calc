@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GST Calculator | RupeeCalc</title>
+
+    <meta name="description"
+          content="Free GST Calculator. Calculate GST amount, net price, and total price instantly.">
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">💰 RupeeCalc</div>
+
+    <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="sip-calculator.html">SIP</a></li>
+        <li><a href="emi-calculator.html">EMI</a></li>
+        <li><a href="fd-calculator.html">FD</a></li>
+        <li><a href="gst-calculator.html">GST</a></li>
+        <li><a href="compound-interest.html">Compound Interest</a></li>
+        <li><a href="simple-interest.html">Simple Interest</a></li>
+    </ul>
+
+</nav>
+
+<section class="calculator-container">
+
+    <div class="calculator-box">
+
+        <h1>GST Calculator</h1>
+
+        <div class="input-group">
+            <label>Amount (₹)</label>
+            <input
+                type="number"
+                id="amount"
+                placeholder="10000">
+        </div>
+
+        <div class="input-group">
+            <label>GST Rate (%)</label>
+            <input
+                type="number"
+                id="gstRate"
+                placeholder="18">
+        </div>
+
+        <button
+            class="calculate-btn"
+            onclick="calculateGST()">
+            Calculate GST
+        </button>
+
+        <div class="results">
+
+            <div class="result-card">
+                <h3>GST Amount</h3>
+                <div class="result-value" id="gstResult">
+                    ₹0
+                </div>
+            </div>
+
+            <div class="result-card">
+                <h3>Total Amount</h3>
+                <div class="result-value" id="totalResult">
+                    ₹0
+                </div>
+            </div>
+
+            <div class="result-card">
+                <h3>Base Amount</h3>
+                <div class="result-value" id="baseResult">
+                    ₹0
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="calculators">
+
+    <h2>What is GST?</h2>
+
+    <p style="max-width:900px; margin:auto; text-align:center;">
+        GST (Goods and Services Tax) is a tax applied on goods and services.
+        It is calculated as a percentage of the base amount and added to the final price.
+    </p>
+
+</section>
+
+<footer>
+    <p>© 2026 RupeeCalc. All Rights Reserved.</p>
+</footer>
+
+<script src="../assets/js/script.js"></script>
+
+</body>
+</html>
+
