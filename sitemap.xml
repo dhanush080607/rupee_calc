@@ -3,31 +3,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://your-domain.vercel.app/</loc>
+    <loc>https://rupeecalc.vercel.app/</loc>
+  </url>
+
+  <!-- Calculators -->
+  <url>
+    <loc>https://rupeecalc.vercel.app/calculators/sip-calculator.html</loc>
   </url>
 
   <url>
-    <loc>https://your-domain.vercel.app/calculators/sip-calculator.html</loc>
+    <loc>https://rupeecalc.vercel.app/calculators/emi-calculator.html</loc>
   </url>
 
   <url>
-    <loc>https://your-domain.vercel.app/calculators/emi-calculator.html</loc>
+    <loc>https://rupeecalc.vercel.app/calculators/fd-calculator.html</loc>
   </url>
 
   <url>
-    <loc>https://your-domain.vercel.app/calculators/fd-calculator.html</loc>
+    <loc>https://rupeecalc.vercel.app/calculators/gst-calculator.html</loc>
   </url>
 
   <url>
-    <loc>https://your-domain.vercel.app/pages/about.html</loc>
+    <loc>https://rupeecalc.vercel.app/calculators/simple-interest.html</loc>
   </url>
 
   <url>
-    <loc>https://your-domain.vercel.app/pages/contact.html</loc>
+    <loc>https://rupeecalc.vercel.app/calculators/compound-interest.html</loc>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://rupeecalc.vercel.app/blog/what-is-sip.html</loc>
   </url>
 
   <url>
-    <loc>https://your-domain.vercel.app/pages/privacy-policy.html</loc>
+    <loc>https://rupeecalc.vercel.app/blog/sip-vs-fd.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rupeecalc.vercel.app/blog/how-emi-is-calculated.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rupeecalc.vercel.app/blog/compound-interest-guide.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rupeecalc.vercel.app/blog/best-investment-options.html</loc>
+  </url>
+
+  <!-- Pages -->
+  <url>
+    <loc>https://rupeecalc.vercel.app/pages/about.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rupeecalc.vercel.app/pages/contact.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rupeecalc.vercel.app/pages/privacy-policy.html</loc>
+  </url>
+
+  <url>
+    <loc>https://rupeecalc.vercel.app/pages/terms.html</loc>
   </url>
 
 </urlset>
